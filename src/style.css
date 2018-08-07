@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+.Cursor--blinking {
+  display: none !important;
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display:inline-block;
+  float: none;
+}
+
+#defaultNav {
+  margin-top: 15px;
+  width: auto;
+}
+
+.nav-link {
+  color: white ;
+}
+
+.active {
+  background: crimson !important;
+}
+
+#profilePic {
+  border-radius: 50%;
+  width: auto;
+  max-height: 350px;
+  filter: grayscale(100%);
+  margin-top: 35px;
+}

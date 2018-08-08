@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  background: url(/static/media/trianglify.571e4090.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: unset;
 }
 .Cursor--blinking {
   display: none !important;
@@ -7,6 +11,11 @@ body {
 
 .navbar.center .navbar-inner {
   text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: azure;
 }
 
 .navbar.center .navbar-inner .nav {

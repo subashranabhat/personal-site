@@ -10,7 +10,7 @@ const languages = ['C#','SQL', 'ASP.NET', 'PHP', 'JavaScript', 'ReactJs', 'NodeJ
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="frontPage">
         <div className="row">
             <TempNav/>
         </div>
@@ -22,19 +22,19 @@ class App extends Component {
             </Tilt>
           </div>
         </div>
-
+        <br/><br/>
         <div className="row">
           <div className="container text-center">
-            <h2 className="animated slideInLeft">Hi!</h2>
+            <h2 className="animated slideInUp">Hello!</h2>
             <Typist>
               <Typist.Delay ms={1250}/>
               <h3>I am Subash.</h3>
-              <Typist.Delay ms={800}/>
+              <Typist.Delay ms={1250}/>
               <h3> FullStack/Software Developer </h3>
               <button type="button" id="resume-btn" class="btn btn-outline-dark btn-lg"><i class="fas fa-download"></i>
-
+              <Typist.Delay ms={1250}/>
                  &nbsp;Download Resume</button>
-              <Typist.Delay ms={800}/>
+              <Typist.Delay ms={1250}/>
 
               {languages.map(lang =>
                 <div>

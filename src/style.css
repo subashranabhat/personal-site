@@ -1,5 +1,6 @@
+@import '../node_modules/react-circular-progressbar/dist/styles.css';
 body {
-  background: url(/static/media/trianglify.571e4090.png);
+  background: url(trianglify.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24,7 +25,7 @@ h2, h3 {
 }
 
 #defaultNav {
-  margin-top: 15px;
+  margin-top: 13px;
   width: auto;
 }
 
@@ -39,7 +40,11 @@ h2, h3 {
 #profilePic {
   border-radius: 50%;
   width: auto;
-  max-height: 350px;
+  max-height: 325px;
   filter: grayscale(100%);
-  margin-top: 35px;
+  margin-top: 30px;
+}
+
+#frontPage {
+  min-height: 750px;
 }

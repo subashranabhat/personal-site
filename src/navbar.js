@@ -1,28 +1,28 @@
 import React, {Component} from 'react';
-
+import {Link} from 'react-router-dom';
 export class TempNav extends Component {
 
   render() {
     return(
       <div className="container" id="defaultNav">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+        <ul className="nav nav-pills">
+          <li className="nav-item">
+            <Link className="nav-link active" to="/">Home</Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li className="nav-item">
+            <Link className="nav-link" to="/about">About</Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skill</a>
+          <li className="nav-item">
+            <Link className="nav-link" to="/skill">Skill</Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
+          <li className="nav-item">
+            <Link className="nav-link" to="/experience">Experience</Link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Portfolio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
